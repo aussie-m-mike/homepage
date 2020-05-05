@@ -1,5 +1,5 @@
 # Homepage
-Donald Trumo personal website. Basically this is just a résumé.
+Donald Trump personal website. Basically this is just a résumé.
 
 You could view the website here: https://aussie-m-mike.github.io/homepage/
 
