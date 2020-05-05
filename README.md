@@ -16,3 +16,20 @@ You could view the website here: https://aussie-m-mike.github.io/homepage/
 3. Run 
 
 ```serve```
+
+4.  For build a decent Service Worker
+
+```npm install --global workbox-cli serv```
+
+5. git/hooks/pre-commit looks as simple as this (Make sure it's executable, chmod +x .git/hooks/pre-commit if necessary):
+
+``` bash
+#!/bin/sh
+if workbox generateSW workbox-config.js ; then
+  git add sw.js
+  exit 0
+else
+  echo "Cannot generate sw.js"
+  echo "Aborting"
+fi
+```
