@@ -9,10 +9,10 @@ You could view the website here: https://aussie-m-mike.github.io/homepage/
 
 ```git clone https://github.com/aussie-m-mike/homepage.git```
 
-1. Install server
+2. Install server
 
 ```npm install --global serve```
 
-1. Run 
+3. Run 
 
 ```serve```
