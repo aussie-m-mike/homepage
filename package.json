@@ -1,0 +1,31 @@
+{
+  "name": "bsa2020-homepage",
+  "version": "1.0.0",
+  "description": "My very own personal website. Basically this is just a résumé.",
+  "dependencies": {},
+  "devDependencies": {
+    "serve": "^11.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aussie-m-mike/homepage.git"
+  },
+  "keywords": [
+    "bsa2020",
+    "binary-studio-academy",
+    "personal",
+    "website",
+    "homepage",
+    "resume"
+  ],
+  "author": "Mike",
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/aussie-m-mike/homepage/issues"
+  },
+  "homepage": "https://github.com/aussie-m-mike/homepage#readme"
+}
